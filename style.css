@@ -86,7 +86,7 @@ body{
   
   /* We create this class with JavaScript. It makes the current dot darker gray */
   .active{
-    background-color: #0b3500;
+    background-color: #001d7b;
   } 
   
   /* create fade animation when switching between images */
