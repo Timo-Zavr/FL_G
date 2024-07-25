@@ -1,6 +1,6 @@
 var index = 0;
 
-show_slide = (i) => {
+function show_slide(i){
   //increment/decrement slide index
   index += i;
 
@@ -31,5 +31,14 @@ show_slide = (i) => {
   dots[index].className += " active";
 
 }
+
+document.addEventListener('keydown', (event) => {
+  if (event.code === 'KeyA' || event.code === 'ArrowLeft') {
+    show_slide(-1)
+  }
+  if (event.code === 'KeyD' || event.code === 'ArrowRight') {
+    show_slide(1)
+  }
+})
 
 window.addEventListener("onload", show_slide(index));

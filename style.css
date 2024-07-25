@@ -26,13 +26,13 @@ body{
     margin-left: 250px;
   }
   .i2, .i3, .i5, .i6, .i7{
-    margin-left: -475px;
+    margin-left: -333px;
   }
   .i4 {
-    margin-left: -200px;
+    margin-left: -70px;
   }
   .i8 {
-    margin-left: 400px;
+    margin-left: 333px;
   }
   
   /* Next & previous buttons */
@@ -44,7 +44,7 @@ body{
     padding: 16px;
     color: #ff0000;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -58,7 +58,7 @@ body{
     padding: 16px;
     color: #ff0000;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3rem;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -78,24 +78,24 @@ body{
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #21a400;
     border-radius: 50%;
     /* transition from one do to the next */
-    transition: background-color 0.6s ease;
+    transition: background-color 0.2s ease;
   }
   
   /* We create this class with JavaScript. It makes the current dot darker gray */
   .active{
-    background-color: #717171;
+    background-color: #0b3500;
   } 
   
   /* create fade animation when switching between images */
   .fade{
   /* Animation support for different browsers */
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 0.2s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 0.2s;
   }
   
   @-webkit-keyframes fade {
